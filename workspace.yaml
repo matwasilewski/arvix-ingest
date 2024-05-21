@@ -1,0 +1,4 @@
+# workspace.yaml
+
+load_from:
+  - python_file: src/arxiv_ingest_dagster/__init__.py

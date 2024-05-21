@@ -1,0 +1,9 @@
+.git
+.vscode
+.coverage
+.env
+.env.example
+
+*_cache
+*.db
+*.md
