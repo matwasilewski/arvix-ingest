@@ -1,15 +1,15 @@
 [tool.poetry]
-name = "data_vortex"
+name = "arxiv_ingest"
 version = "0.1.0"
 authors = ["0.1.0 <mat.p.wasilewski@gmail.com>"]
 description = ""
 packages = [
-    { include = "data_vortex", from = "src"},
-    { include = "data_vortex_dagster", from = "src"},
+    { include = "arxiv_ingest", from = "src"},
+    { include = "arxiv_ingest_dagster", from = "src"},
 ]
 
 [tool.poetry.scripts]
-data_vortex = "src.data_vortex.cli:cli"
+arxiv_ingest = "src.arxiv_ingest.cli:cli"
 
 [tool.poetry.dependencies]
 python = ">=3.9, <3.13"
